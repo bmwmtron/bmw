@@ -1,6 +1,10 @@
 body {
     background-color: #000;
-    color: #fff;
+    color: #fff !important;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
 }
 
 img {
@@ -22,6 +26,12 @@ h2 {
 
 h3 {
     text-align: center;
+}
+
+.img1 {
+    height: 400px;
+    width: 1150px;
+    margin: auto;
 }
 
 .text p {
@@ -60,4 +70,47 @@ h3 {
 
 .mt h2 {
     font-size: 16px;
+}
+
+.logo-div {
+    width: 1150px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.row.text.mt p,
+.row.text.mt h3 {
+    color: #fff;
+}
+
+.row.text.mt .col-xs-12.col-sm-6.col-md-3:hover p {
+    color: grey;
+}
+
+.row.text.mt .col-xs-12.col-sm-6.col-md-3:hover h3 {
+    color: grey;
+}
+
+.row.text.mt img {
+    height: 160px;
+}
+
+.row.color.mt a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.row.color.mt:hover a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.596);
 }
