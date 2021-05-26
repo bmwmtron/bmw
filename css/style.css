@@ -91,11 +91,11 @@ h3 {
     color: #fff;
 }
 
-.row.text.mt .col-xs-12.col-sm-6.col-md-3:hover p {
+.row.text.mt.m .col-xs-12.col-sm-6.col-md-3:hover p {
     color: grey;
 }
 
-.row.text.mt .col-xs-12.col-sm-6.col-md-3:hover h3 {
+.row.text.mt.m .col-xs-12.col-sm-6.col-md-3:hover h3 {
     color: grey;
 }
 
@@ -113,4 +113,20 @@ h3 {
     list-style: none;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.596);
+}
+
+.insta1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 260px;
+    margin-top: 4px;
+}
+
+.insta2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 200px;
+    margin-top: 4px;
 }
