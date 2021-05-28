@@ -29,9 +29,8 @@ h3 {
 }
 
 .img1 {
-    height: 400px;
-    width: 1150px;
-    margin: auto;
+    height: 100vh;
+    max-width: 100%;
 }
 
 .text p {
@@ -59,22 +58,13 @@ h3 {
     background: #ff6525;
 }
 
-@media screen and (max-width: 768px) {
-    h2 {
-        font-size: 20px;
-    }
-    .mt {
-        margin-top: 15px;
-    }
-}
-
 .mt h2 {
     font-size: 16px;
 }
 
 .logo-div {
-    width: 1150px;
-    height: 220px;
+    max-width: 1150px;
+    max-height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,8 +72,8 @@ h3 {
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .row.text.mt p,
@@ -107,6 +97,7 @@ h3 {
     list-style: none;
     text-decoration: none;
     color: #000;
+    height: 300px;
 }
 
 .row.color.mt:hover a {
@@ -116,17 +107,74 @@ h3 {
 }
 
 .insta1 {
-    width: 50px;
-    height: 50px;
+    max-width: 40px;
+    max-height: 40px;
     position: absolute;
-    right: 260px;
-    margin-top: 4px;
+    right: 420px;
+    margin-top: 9px;
 }
 
-.insta2 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    right: 200px;
-    margin-top: 4px;
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+    .mt {
+        margin-top: 15px;
+    }
+    .img1 {
+        max-width: 100%;
+        max-height: 280px;
+    }
+    .logo-div {
+        max-width: 100%;
+        max-height: 90px;
+    }
+    .logo {
+        max-width: 90px;
+        max-height: 90px;
+    }
+    .row.text a div img {
+        max-width: 100%;
+        max-height: 340px;
+    }
+    .insta1 {
+        right: 160px;
+    }
+}
+
+@media (max-width: 425px) {
+    h2 {
+        font-size: 12px;
+    }
+    .mt {
+        margin-top: 8px;
+    }
+    .img1 {
+        max-width: 100%;
+        max-height: 80px;
+    }
+    .logo-div {
+        max-width: 100%;
+        max-height: 40px;
+    }
+    .logo {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .row.text a div img {
+        max-width: 100%;
+        max-height: 140px;
+    }
+    .insta1 {
+        right: 200px;
+        top: 1170px;
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .row.color.mt.a {
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
