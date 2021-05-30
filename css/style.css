@@ -93,11 +93,11 @@ h3 {
     height: 160px;
 }
 
-.row.color.mt a {
+.row.color.mt {
     list-style: none;
     text-decoration: none;
     color: #000;
-    height: 300px;
+    margin-bottom: 30px;
 }
 
 .row.color.mt:hover a {
@@ -107,74 +107,11 @@ h3 {
 }
 
 .insta1 {
-    max-width: 40px;
-    max-height: 40px;
-    position: absolute;
-    right: 420px;
-    margin-top: 9px;
+    width: 100%;
 }
 
-@media (max-width: 768px) {
-    h2 {
-        font-size: 20px;
-    }
-    .mt {
-        margin-top: 15px;
-    }
-    .img1 {
-        max-width: 100%;
-        max-height: 280px;
-    }
-    .logo-div {
-        max-width: 100%;
-        max-height: 90px;
-    }
-    .logo {
-        max-width: 90px;
-        max-height: 90px;
-    }
-    .row.text a div img {
-        max-width: 100%;
-        max-height: 340px;
-    }
-    .insta1 {
-        right: 160px;
-    }
-}
-
-@media (max-width: 425px) {
-    h2 {
-        font-size: 12px;
-    }
-    .mt {
-        margin-top: 8px;
-    }
-    .img1 {
-        max-width: 100%;
-        max-height: 80px;
-    }
-    .logo-div {
-        max-width: 100%;
-        max-height: 40px;
-    }
-    .logo {
-        max-width: 40px;
-        max-height: 40px;
-    }
-    .row.text a div img {
-        max-width: 100%;
-        max-height: 140px;
-    }
-    .insta1 {
-        right: 200px;
-        top: 1170px;
-        max-width: 25px;
-        max-height: 25px;
-    }
-    .row.color.mt.a {
-        height: 90px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.insta1 a img {
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
 }
